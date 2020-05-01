@@ -187,6 +187,7 @@ fetch("data.json").then(function(response){
     
                 let elemLogoImg =  document.createElement("img");
                 elemLogoImg.setAttribute("src", jobItem.logo);
+                elemLogoImg.setAttribute("alt",jobItem.company);
                 
                 elemJobItemLogo.appendChild(elemLogoImg);
     
